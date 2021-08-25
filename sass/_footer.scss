@@ -1,85 +1,106 @@
 .footer {
-   display: flex;
-   justify-content: space-around;
-   font-family: $font-secundaria;
-   color:#fff;
-   background: $bg-color-footer;
-   padding-top: 60px;
-   padding-bottom: 40px;
-
-   .footer-logo {
-      max-width: 145px;
-   }
-
-   .footer-logo-title {
-      font-family: $font-principal;
-      font-size: 25px;
-      letter-spacing: 8px;
-   }
-
-   .footer-logo-sub-title {
-      font-family: $font-principal;
-      font-size: 9px;
-      letter-spacing: 8px;
-      text-align: center;
-   }
-
-   .logo-description {
-      font-size: 14px;
-      padding-top: 22px;
-   }
-
-   .footer-link ul li {
+   .container-triangle {    
       display: flex;
-      height: 35px;
-   }
-
-   a {
-      color: #fff;
-      text-decoration: none;
-
-      i {
-         padding-right: 20px;
+      height: 42px;
+      width: 100%;
+      justify-content: center;
+    
+      .triangle {      
+        top: 10px;
+        width: 0;
+        height: 0;
+        border-right: 42px solid transparent;
+        border-left: 42px solid transparent;
+        border-bottom: 42px solid $bg-color-footer;;
       }
    }
-
-   .footer-social ul li  {
+   
+   .footer-group {
       display: flex;
-      height: 35px;
-   }
-
-   .footer-subcription {
-      display: flex;
-      justify-content: space-between;
-      height: 90px;
-      flex-direction: column;
-
-      input {
-         height: 40px;
-         width: 278px;
-         border-radius: 5px 0 0 5px;
-         background: $color-secundario;
-         padding-left: 15px;
-         border: 2px solid #E0B973;
+      justify-content: space-around;
+      font-family: $font-secundaria;
+      color:#fff;
+      background: $bg-color-footer;
+      padding-top: 60px;
+      padding-bottom: 40px;
+   
+      .footer-logo {
+         max-width: 145px;
+      }
+   
+      .footer-logo-title {
+         font-family: $font-principal;
+         font-size: 25px;
+         letter-spacing: 8px;
+      }
+   
+      .footer-logo-sub-title {
+         font-family: $font-principal;
+         font-size: 9px;
+         letter-spacing: 8px;
+         text-align: center;
+      }
+   
+      .logo-description {
+         font-size: 14px;
+         padding-top: 22px;
+      }
+   
+      .footer-link ul li {
+         display: flex;
+         height: 35px;
+      }
+   
+      a {
          color: #fff;
-
-         &::placeholder {
-            color: #fff;
+         text-decoration: none;
+   
+         i {
+            padding-right: 20px;
          }
       }
-
-      button {
-         height: 40px;
-         width: 60px;
-         background-color: $bg-color-btn;
-         border-radius: 0 5px 5px 0;
-         font-size: 16px;
-         border: none;
-      }
-
-      .email {
+   
+      .footer-social ul li  {
          display: flex;
-         justify-content: center;
+         height: 35px;
+      }
+   
+      .footer-subcription {
+         display: flex;
+         justify-content: space-between;
+         height: 90px;
+         flex-direction: column;
+   
+         input {
+            height: 40px;
+            width: 278px;
+            border-radius: 5px 0 0 5px;
+            background: $color-secundario;
+            padding-left: 15px;
+            border: 2px solid #E0B973;
+            color: #fff;
+   
+            &::placeholder {
+               color: #fff;
+            }
+         }
+   
+         button {
+            height: 40px;
+            width: 60px;
+            background-color: $bg-color-btn;
+            border-radius: 0 5px 5px 0;
+            font-size: 16px;
+            border: none;
+         }
+   
+         .email {
+            display: flex;
+            justify-content: center;
+         }
       }
    }
+
+
 }
+
