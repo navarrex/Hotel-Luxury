@@ -258,7 +258,7 @@ h1 {
 .footer .footer-subcription input {
   height: 40px;
   width: 278px;
-  border-radius: 25px;
+  border-radius: 5px 0 0 5px;
   background: #14274a;
   padding-left: 15px;
   border: 2px solid #E0B973;
